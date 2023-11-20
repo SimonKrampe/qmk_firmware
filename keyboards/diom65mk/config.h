@@ -1,4 +1,5 @@
 /*
+
 Copyright 2019 I/O Keyboards <hello@iokeyboards.eu>
 
 This program is free software: you can redistribute it and/or modify
@@ -17,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
+
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -26,7 +27,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // ROWS: Top to bottom, COLS: Left to right
 
 #define MATRIX_ROW_PINS {D3,B5,D5,B7,C7}
-#define MATRIX_COL_PINS {B0,F1,F0,B6,B2,B3,B1,F7,F6,F5,F4,B4,E6,D7,D6,D4,D2}
+#define MATRIX_COL_PINS {B0,F1,F0,B6,B2,B3,B1,F7,F6,F5,F4,B4,E6,D7,C6,D4,D2}
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
